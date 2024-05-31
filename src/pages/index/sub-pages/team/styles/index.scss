@@ -1,0 +1,35 @@
+/* 导航栏 start */
+.navbar {
+  position: relative;
+  width: 100%;
+  padding: 0rpx 30rpx;
+  display: flex;
+
+  .search-operation {
+    flex-grow: 0;
+    flex-shrink: 0;
+    font-size: 40rpx;
+  }
+
+  .category {
+    flex: 1;
+    margin-left: 20rpx;
+    padding-top: 4rpx;
+  }
+}
+/* 导航栏 end */
+
+/* 页面内容 start */
+.page {
+  position: relative;
+  width: 100%;
+  padding: 0rpx 30rpx;
+  margin-top: 120rpx;
+
+  .teams-item {
+    & + .teams-item {
+      margin-top: 30rpx;
+    }
+  }
+}
+/* 页面内容 end */
