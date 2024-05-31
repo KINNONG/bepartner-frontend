@@ -1,3 +1,3 @@
-## 图鸟 UI vue3 项目模板 - 图鸟内部使用
+## 搭伙-线上组队小程序
 
-图鸟 UI uniapp vue3 版本模版
+基于Vite+Vue3+TypeScript+TuniaoUI开发的搭伙学习/游戏组队小程序
